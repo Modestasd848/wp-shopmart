@@ -1,0 +1,61 @@
+html {
+  background: linear-gradient(rgb(204, 33, 247), blue);
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 100px;
+  justify-content: flex-start;
+}
+
+#orange {
+  color: #eba04d;
+}
+
+nav {
+  width: 100%;
+  margin-left: 25%;
+  font-weight: bold;
+}
+
+.login-button {
+  margin-left: 40%;
+  padding: 7px 30px;
+  background-color: #f4ef4d;
+  border-radius: 30px;
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 30px;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  padding: 30px 100px;
+}
+
+.flex-item-1 {
+  text-align: left;
+  width: 20%;
+}
+
+.flex-item-2 {
+  width: 50%;
+  margin-left: 500px;
+}
+
+.right-side-nave {
+  display: flex;
+  flex-flow: column;
+}
